@@ -1,0 +1,15 @@
+meta {
+  name: Get All Products
+  type: http
+  seq: 1
+}
+
+get {
+  url: http://localhost:5140/api/product/getallproducts
+  body: none
+  auth: bearer
+}
+
+auth:bearer {
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiRHJhY3ZzIiwianRpIjoiNzljMGVkZGItZjdmMC00NjE0LWJjNTYtZjk5ZDc0MDdiY2EwIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiQWRtaW4iLCJleHAiOjE3NDA3ODExMTMsImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjUxNDAiLCJhdWQiOiJodHRwczovL2xvY2FsaG9zdDo1MTQwIn0.MEfkZvSqCr4Wgm0VDkIMj3t5OvBVtn6Ch7_-2HBSY4M
+}
