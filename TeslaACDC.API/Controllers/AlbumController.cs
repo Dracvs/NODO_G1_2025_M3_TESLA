@@ -34,5 +34,15 @@ namespace TeslaACDC.API.Controllers
             return Ok(result);
         }
 
+        [HttpGet("getAlbumByName")]
+        public async Task<IActionResult> GetAlbumByName(string name)
+        {
+            var result = await _albumService.FindByName(name);
+            return result.TotalElements >  0 ? 
+                Ok(result) :
+                NotFound(result);
+        }
+        
+
     }
 }
