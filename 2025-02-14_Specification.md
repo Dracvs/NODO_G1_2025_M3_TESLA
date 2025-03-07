@@ -187,3 +187,32 @@ Una página por acción con el servicio de datos inyectado en tiempo de ejecuci�
         - Adminisrtrar autores
         - NO SE DEBE BORRAR UN AUTOR.
         - Desactivar mi autor para que no salga en la búsqueda.
+
+
+
+---
+# Usuarios
+Los usuarios tendrán dos roles posibles, Usuario y Admin.
+
+## Usuarios
+Tienen acceso a: 
+    - libros 
+    - audiolibros
+    - autores
+    - posibilidad de descargar los libros en formato PDF
+    - posibilidad de descargar los libros en formato de audio
+    - Leer los PDFs en línea
+    - Escuchar los audiolibros en línea
+    - Se puede registrar
+    - busqueda en libros, autores, audiolibros.
+
+## Admins
+    - Todos los permisos de los usuarios
+    - Subir libros y audiolibros
+    - Borrar o desactivar, libros y audiolibros
+    - Buscar, administrar, agregar, eliminar y resetear el password de los usuarios
+    - Acceso a un Dashboard de estadísticas
+        - LIbro más leído
+        - Libro más descargado
+        - Libro más visto
+        - Libro más escuchado
