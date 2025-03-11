@@ -171,3 +171,16 @@ builder.Services.AddDbContext<NikolaContext>(
     - representar en minutos
 
 - Implementar todos los basemessages para cada servicio individual.
+
+
+# Link de compra
+- Vamos a crear un botón que lleve a la página de la editorial, donde efectivamente se pueda comprar el libro.
+
+# Donación
+- Crear una página que capture los datos de la donación
+- Crear una tabla en la BD que vaya recogiendo que usuario hizo la donación y por cuanto.
+    - id del usuario
+    - Monto
+    - Cuando fue hecha esa donación
+    - Medio de esa donación
+    - Moneda

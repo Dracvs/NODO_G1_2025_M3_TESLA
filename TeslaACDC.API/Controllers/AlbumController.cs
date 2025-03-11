@@ -8,7 +8,7 @@ namespace TeslaACDC.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
+    //[Authorize]
     public class AlbumController : ControllerBase
     {
         private readonly IAlbumService _albumService;
